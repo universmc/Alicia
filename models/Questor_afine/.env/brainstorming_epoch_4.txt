@@ -1,0 +1,4 @@
+
+                      - Analyse et documentation des performances avec Mistral.
+
+Cela permettra d'améliorer la précision et l'efficacité du modèle IA en le rendant plus réactif aux interactions utilisateur.

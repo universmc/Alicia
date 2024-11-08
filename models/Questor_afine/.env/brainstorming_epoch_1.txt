@@ -1,0 +1,2 @@
+
+Dans le cadre de l'epoch 1, nous mettrons en place le modèle AlgoGenesis.js en mode apprentissage avec Mistral, pour une amélioration continue.

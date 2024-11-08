@@ -1,0 +1,4 @@
+
+                      - Intégration avec l'IA sous la forme d'un outil de prédiction pour les utilisateurs.
+
+La bibliothèque d'apprentissage automatique Mistral sera utilisée pour améliorer les performances d'AlgoGenesis.js et fournir des fonctionnalités d'IA plus poussées.

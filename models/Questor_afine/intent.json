@@ -1,0 +1,33 @@
+{
+    "hostname_intent": {
+      "system": {
+        "role": "system",
+        "content": "Vous devez configurer un serveur. Quelle est l’adresse du serveur ?"
+      },
+      "assistant": {
+        "role": "assistant",
+        "content": "Je vais vous aider à configurer le serveur en fonction de votre saisie."
+      }
+    },
+    "environment_intent": {
+      "system": {
+        "role": "system",
+        "content": "Veuillez sélectionner l’environnement pour la configuration : développement, staging ou production ?"
+      },
+      "assistant": {
+        "role": "assistant",
+        "content": "L’environnement {environment} est sélectionné. Je prépare la configuration."
+      }
+    },
+    "algorithm_intent": {
+      "system": {
+        "role": "system",
+        "content": "Sélectionnez l’algorithme à utiliser pour la génération : Frontend, Backend, Fullstack ou API Rest."
+      },
+      "assistant": {
+        "role": "assistant",
+        "content": "L'algorithme {algorithm} a été sélectionné. La génération commencera dans un instant."
+      }
+    }
+  }
+  

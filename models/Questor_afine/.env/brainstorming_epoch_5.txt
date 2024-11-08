@@ -1,0 +1,5 @@
+
+                      - Sécurisation de la plateforme avec SSL/TLS pour les transactions de données.
+                      - Utilisation de Mistral pour l'apprentissage et la prédiction.
+
+Avec ces fonctionnalités, nous souhaitons créer une interface utilisateur intuitive et un puissant moteur d'IA qui prend en charge les besoins de l'utilisateur final.

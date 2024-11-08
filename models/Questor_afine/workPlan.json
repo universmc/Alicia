@@ -1,0 +1,147 @@
+{
+    "projectName": "AlgoGenesis AI Learning Site",
+    "version": "1.0.0",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Frontend Development",
+        "description": "Mise en place du frontend avec HTML, CSS, SCSS et les composants réutilisables.",
+        "tasks": [
+          {
+            "taskName": "Create index.html",
+            "description": "Page d'accueil du site avec présentation des services offerts (Machine Learning, Blog, Tutoriels)."
+          },
+          {
+            "taskName": "Create howto.html",
+            "description": "Page dédiée aux guides How-To expliquant les différentes techniques d'apprentissage automatique."
+          },
+          {
+            "taskName": "Create tutorial.html",
+            "description": "Page pour héberger des tutoriels spécifiques sur la programmation et AI."
+          },
+          {
+            "taskName": "Style website with SCSS",
+            "description": "Utilisation de SCSS pour les styles avancés, gestion des layouts et transitions responsives."
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Backend Development",
+        "description": "Mise en place du backend avec Node.js et PHP pour gérer les API et les bases de données.",
+        "tasks": [
+          {
+            "taskName": "Create serveur.js",
+            "description": "Mise en place d’un serveur Node.js pour gérer les requêtes API et servir le frontend."
+          },
+          {
+            "taskName": "PHP and SQL setup",
+            "description": "Créer un service PHP pour interagir avec la base de données SQL et gérer les utilisateurs et datasets."
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "title": "API Integration",
+        "description": "Intégration des API pour gérer les modèles AI et fournir du contenu dynamique.",
+        "tasks": [
+          {
+            "taskName": "Create aiModel.js",
+            "description": "API pour gérer les modèles AI et l'intégration des outils de Machine Learning."
+          },
+          {
+            "taskName": "Create tutorials API",
+            "description": "Créer une API dédiée pour héberger et gérer les tutoriels et mettre à jour le contenu en temps réel."
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Data Management",
+        "description": "Gestion des données pour les utilisateurs et datasets Machine Learning.",
+        "tasks": [
+          {
+            "taskName": "Create dataset.cvs",
+            "description": "Importation d’un dataset pour démonstration et entraînement des modèles AI."
+          },
+          {
+            "taskName": "Create user.json",
+            "description": "Fichier JSON pour la gestion des utilisateurs et de leurs préférences sur la plateforme."
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "title": "Models Integration",
+        "description": "Intégration des modèles AI pour la génération de contenu et les interactions intelligentes.",
+        "tasks": [
+          {
+            "taskName": "Integrate gemini model",
+            "description": "Modèle AI pour la génération de texte et réponses automatisées."
+          },
+          {
+            "taskName": "Integrate gpt model",
+            "description": "Modèle GPT pour générer du contenu multimodal et interactif."
+          },
+          {
+            "taskName": "Integrate mixtral model",
+            "description": "Modèle avancé pour l’analyse des données utilisateurs et personnalisation des tutoriels."
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "title": "Build and Development Scripts",
+        "description": "Configuration des scripts pour automatiser le développement et le déploiement.",
+        "tasks": [
+          {
+            "taskName": "Configure package.json",
+            "description": "Ajouter les scripts pour démarrer le serveur, compiler le site et effectuer les tests."
+          },
+          {
+            "taskName": "Set up Makefile",
+            "description": "Créer un Makefile pour les builds automatisés du projet."
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "title": "Testing and Deployment",
+        "description": "Test et déploiement de l’application en production.",
+        "tasks": [
+          {
+            "taskName": "Test frontend and backend",
+            "description": "Tester l'intégration complète du frontend et du backend pour s'assurer que tout fonctionne correctement."
+          },
+          {
+            "taskName": "Deploy application",
+            "description": "Déployer l’application sur un serveur de production avec gestion des versions."
+          }
+        ]
+      }
+    ],
+    "technologies": [
+      "Node.js",
+      "PHP",
+      "SQL",
+      "AI Models (Gemini, GPT, Mixtral)",
+      "SCSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "team": [
+      {
+        "role": "Frontend Developer",
+        "responsibilities": "Créer et maintenir l'interface utilisateur du site web, travailler avec HTML, CSS, et JavaScript."
+      },
+      {
+        "role": "Backend Developer",
+        "responsibilities": "Développer l'API, gérer la base de données et les services backend."
+      },
+      {
+        "role": "AI Engineer",
+        "responsibilities": "Intégrer les modèles d’intelligence artificielle et optimiser les algorithmes pour l'interaction utilisateur."
+      }
+    ]
+  }
+  
