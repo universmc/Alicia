@@ -1,6 +1,32 @@
 #!/bin/bash
 
 # Fonction pour générer un nombre aléatoire de 75 chiffres
+
+
+#!/bin/bash
+# Script de vérification de sécurité de l'adresse IP d'un radar
+
+radar_ip="192.168.1.100"  # Exemple d'adresse IP
+
+echo "Vérification de l'adresse IP : $radar_ip"
+
+# Vérification de la connectivité
+ping -c 3 $radar_ip > /dev/null
+if [ $? -eq 0 ]; then
+    echo "Connectivité à $radar_ip : OK"
+else
+    echo "Erreur : Impossible de joindre l'adresse IP"
+fi
+
+# Analyse des ports ouverts
+echo "Analyse des ports ouverts sur $radar_ip"
+nmap -p 1-65535 $radar_ip
+
+# Vérification des tentatives d'accès non autorisées dans les logs
+echo "Recherche de tentatives d'accès non autorisées..."
+grep "unauthorized access" /var/log/radar_logs.log
+
+
 # Affichage de l'heure et du mode de développement
 echo "💻$(date "+%H:%M:%S") /dev mode"
 titre() {  

@@ -31,6 +31,9 @@ Mandatory_MSG="✨Initialisation du Mandataire✨"
 
 # Ajoutez une règle pour chaque commande
 
+
+
+
 commandeR:
 	@echo "${COMMANDE2_MSG}"
 	@./menu.sh
